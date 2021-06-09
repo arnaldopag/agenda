@@ -10,5 +10,15 @@ namespace agenda
             ItemContato = new List<ItemContato>();
         }
 
+        public void adcionaContato(ItemContato item){
+            ItemContato.Add(item);
+        }
+        public int TotalContatos(){
+            int total = 0;
+            foreach( var item in ItemContato){
+                total ++;
+            }
+            return total;
+        }
     }
 }
