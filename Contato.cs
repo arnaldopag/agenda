@@ -10,7 +10,7 @@ namespace agenda
             ItemContato = new List<ItemContato>();
         }
 
-        public void adcionaContato(ItemContato item){
+        public void adicionaContato(ItemContato item){
             ItemContato.Add(item);
         }
         public int TotalContatos(){
